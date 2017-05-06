@@ -1,0 +1,40 @@
+.projects {
+	display: flex;
+	flex-direction: column;
+
+	> li {
+		position: relative;
+		margin: 20px 0;
+		padding: 0px;
+
+		img {
+			width: 100%;
+		}
+
+		.caption {
+			position: absolute;
+			width: 100%;
+			min-height: 120px;
+			display: block;
+			padding: 10px;
+			box-sizing: border-box;
+			bottom: 10px;
+			left: 0;
+			background-color: rgba(0, 0, 0, .8);
+			color: #FFF;
+
+			strong {
+				font-size: 18px;
+
+				a {
+					color: #FFF;
+					cursor: pointer;
+				}
+			}
+
+			p {
+				font-size: 12px;
+			}
+		}
+	}
+}
